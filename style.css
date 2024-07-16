@@ -1,0 +1,70 @@
+body {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 246, 246);
+}
+
+.head {
+    color: black;
+    font-size: 30px;
+    text-decoration: double;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+    background-color: rgb(215, 250, 212);
+    width: 400px;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 10vh auto 0 auto;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.btns {
+
+    font-size: 20px;
+    background-color: green;
+    cursor: pointer;
+    padding: 5px;
+    width: 120px;
+}
+
+#btns:hover {
+    color: aliceblue;
+    background-color: rgb(60, 255, 0);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a :hover {
+    color: red;
+}
+
+input {
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.login.success input {
+    border-color: greenyellow;
+}
+
+.login.error input {
+    border-color: red;
+}
